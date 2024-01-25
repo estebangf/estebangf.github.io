@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es" >
+  <head>
+    <meta charset="utf-8" />
+    <meta name="title" content="Esteban Gabriel Fernandez">
+    <meta name="theme-color" content="#1DA1F2" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0f1419" media="(prefers-color-scheme: dark)">
+    <meta name="description" content="Mi página de GitHub">
+    
+
+    <meta name="og:title" content="Mi página de GitHub">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mi página de GitHub</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico"/>
+
+  </head>
+
+  <body>
+        
+  <!--
+    Extracto de otro lugar solo para que aparezca algo
+  -->
+    <nav>
+      <div class="nav-title">
+        <a class="home-link" href="/">
+          <img src="/assets/logo.svg" alt="Esteban G. Fernandez">
+          Open Source
+        </a>
+      </div>
+      <a id="menu-toggle" href="#" onclick="document.getElementById('nav-menu').classList.toggle('active'); return false;">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+      </a>
+      <ul id="nav-menu">
+        <li><a href="/projects/">Projectos</a></li>
+      </ul>
+    </nav>
+
+    
+    <main>
+      <div class="header">
+        <div class="container">
+          <div id="header-text">
+            <h1 class="subtitle">
+              <a href="https://github.com/estebangf" target="_blank" rel="noopener">Mi GitHub</a>
+            </h1>
+            <h1 class="large-title">Mi página</h1>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="section" id="explore-projects">
+          <div class="container">
+            <div class="explore-text">
+              <h1 class="small-title mega-margin">Explore Projects</h1>
+              <p class="mega-margin">Twitter has been built on open source since the beginning. Openness is part of our DNA. The projects you see here were born at Twitter, and patches are always welcome!</p>
+              <a href="/projects/" class="Button Button--primary Button--large">View All Projects</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="section" id="career">
+          <div class="container">
+            <div id="career-text" class="same-mega-margin">
+              <h1 class="small-title mega-margin career-title">Join the Flock</h1>
+              <p class="mega-margin">We are always on the lookout for innovative and creative individuals who are passionate about building a platform where all voices can be heard.</p>
+              <a href="https://careers.twitter.com" class="Button Button--secondary Button--large">View All Careers</a>
+            </div>
+            <div class="timeline-cell">
+              <a class="twitter-timeline" data-height="500" href="https://twitter.com/TwitterCareers?ref_src=twsrc%5Etfw">Tweets by TwitterCareers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
