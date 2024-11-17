@@ -13,36 +13,36 @@ const projectsData: ProjectProps[] = [
     name: "ClipTo",
     title: "ClipTo - Acortador de URLs",
     description: "Un acortador de URLs desarrollado con React, TypeScript, Tailwind CSS, Next.js y MongoDB, con autenticación Google OAuth.",
-    link: "https://clipto.vercel.app",
-    github: "https://github.com/estebangf/clipto"
+    link: "https://clip-to.vercel.com/wKoXrmw",
+    github: "https://clip-to.vercel.com/Ov0xhrd"
   },
   {
     name: "Finanzas Personales",
     title: "Finanzas Personales",
     description: "Una aplicación registro de gastos desarrollado con React, TypeScript, Materia UI y firebase.",
-    link: "https://finanzas-personales-17892.web.app/",
-    github: "https://github.com/estebangf/finanzas-personales"
+    link: "https://clip-to.vercel.com/kXseCPS",
+    github: "https://clip-to.vercel.com/7Z5L-Lq"
   },
   {
     name: "Novo Estilo Admin",
     title: "Novo Estilo - Panel de gestión",
     description: "Una aplicación de gestion de turnos para una pluquería desarrollado con React, TypeScript, Materia UI y firebase.",
     // link: "https://bingojuego.vercel.app",
-    github: "https://github.com/estebangf/novo-estilo-admin"
+    github: "https://clip-to.vercel.com/gxengVR"
   },
   {
     name: "Novo Estilo Turnos",
     title: "Novo Estilo - Solicitud de turnos",
     description: "Una aplicación de inscripción a turnos para una pluquería desarrollado con React, TypeScript, Materia UI y firebase.",
     // link: "https://bingojuego.vercel.app",
-    github: "https://github.com/estebangf/novo-estilo-public"
+    github: "https://clip-to.vercel.com/LZVipm_"
   },
   {
     name: "El libro de tu vida",
     title: "El libro de tu vida",
     description: "Una aplicación estilo diario personal desarrollada con Ionic, React, TypeScript y firebase.",
-    link: "https://el-libro-de-tu-vida.web.app/",
-    github: "https://github.com/estebangf/el-libro-de-tu-vida"
+    link: "https://clip-to.vercel.com/7K2_txR",
+    github: "https://clip-to.vercel.com/I5lmXVW"
   },
   // Agrega más proyectos aquí
 ]
