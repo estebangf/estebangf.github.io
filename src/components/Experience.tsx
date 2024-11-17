@@ -22,7 +22,7 @@ const experienceData: ExperienceItemProps[] = [
   },
   {
     title: "Auditor de procesos",
-    company: "Instituto X",
+    company: "Corralon Mayorista",
     duration: "2018 - 2019",
     description: "Gestiono servidores, revision de procesos y control de inventarios.",
   },
