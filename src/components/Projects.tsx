@@ -13,36 +13,36 @@ const projectsData: ProjectProps[] = [
     name: "ClipTo",
     title: "ClipTo - Acortador de URLs",
     description: "Un acortador de URLs desarrollado con React, TypeScript, Tailwind CSS, Next.js y MongoDB, con autenticación Google OAuth.",
-    link: "https://clip-to.vercel.com/wKoXrmw",
-    github: "https://clip-to.vercel.com/Ov0xhrd"
+    link: "https://clip-to.vercel.app/wKoXrmw",
+    github: "https://clip-to.vercel.app/Ov0xhrd"
   },
   {
     name: "Finanzas Personales",
     title: "Finanzas Personales",
     description: "Una aplicación registro de gastos desarrollado con React, TypeScript, Materia UI y firebase.",
-    link: "https://clip-to.vercel.com/kXseCPS",
-    github: "https://clip-to.vercel.com/7Z5L-Lq"
+    link: "https://clip-to.vercel.app/kXseCPS",
+    github: "https://clip-to.vercel.app/7Z5L-Lq"
   },
   {
     name: "Novo Estilo Admin",
     title: "Novo Estilo - Panel de gestión",
     description: "Una aplicación de gestion de turnos para una pluquería desarrollado con React, TypeScript, Materia UI y firebase.",
     // link: "https://bingojuego.vercel.app",
-    github: "https://clip-to.vercel.com/gxengVR"
+    github: "https://clip-to.vercel.app/gxengVR"
   },
   {
     name: "Novo Estilo Turnos",
     title: "Novo Estilo - Solicitud de turnos",
     description: "Una aplicación de inscripción a turnos para una pluquería desarrollado con React, TypeScript, Materia UI y firebase.",
     // link: "https://bingojuego.vercel.app",
-    github: "https://clip-to.vercel.com/LZVipm_"
+    github: "https://clip-to.vercel.app/LZVipm_"
   },
   {
     name: "El libro de tu vida",
     title: "El libro de tu vida",
     description: "Una aplicación estilo diario personal desarrollada con Ionic, React, TypeScript y firebase.",
-    link: "https://clip-to.vercel.com/7K2_txR",
-    github: "https://clip-to.vercel.com/I5lmXVW"
+    link: "https://clip-to.vercel.app/7K2_txR",
+    github: "https://clip-to.vercel.app/I5lmXVW"
   },
   // Agrega más proyectos aquí
 ]
