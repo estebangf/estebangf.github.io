@@ -49,7 +49,7 @@ const Experience = () => {
         <h2 className="text-3xl font-semibold text-center text-gray-800">Experiencia</h2>
         <div className="mt-10 space-y-6">
           {experienceData.map((item, index) => (
-            <AnimatedIn key={index} style={{ animationDelay: `${(index + 1) % 2 * 300}` }}>
+            <AnimatedIn key={index} style={{ animationDelay: `${(index + 1) % 2 * 300}ms` }}>
               <ExperienceItem {...item} />
             </AnimatedIn>
           ))}

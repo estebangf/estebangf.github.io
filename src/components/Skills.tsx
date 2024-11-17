@@ -36,7 +36,7 @@ const Skills = () => {
         <h2 className="text-3xl font-semibold text-gray-800">Habilidades</h2>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
           {skillsData.map((skill, index) => (
-            <AnimatedIn key={index} style={{ animationDelay: `${(index + 1) % 2 * 300}` }}>
+            <AnimatedIn key={index} style={{ animationDelay: `${index * 300}ms` }}>
               <SkillItem {...skill} />
             </AnimatedIn>
           ))}
