@@ -17,8 +17,8 @@ const projectsData: ProjectProps[] = [
     github: "https://github.com/estebangf/clipto"
   },
   {
-    name: "Finanzas personales",
-    title: "Finanzas personales",
+    name: "Finanzas Personales",
+    title: "Finanzas Personales",
     description: "Una aplicación registro de gastos desarrollado con React, TypeScript, Materia UI y firebase.",
     link: "https://finanzas-personales-17892.web.app/",
     github: "https://github.com/estebangf/finanzas-personales"
