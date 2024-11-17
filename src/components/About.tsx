@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="bg-gray-100 relative">
       <WaveDivider desbord color="#4338ca" bg="bg-gray-100" flipped variant="afect" />
       <div className="max-w-5xl py-10 mx-auto px-6 text-center">
-        <img src={`/about/me.jpeg`} className="mx-auto h-64 rounded-full mb-12" />
+        <img src="/about/me.jpeg" className="mx-auto h-64 rounded-full mb-12" />
         <AnimatedIn>
           <h2 className="text-3xl font-semibold text-gray-800">Sobre mí</h2>
         </AnimatedIn>
