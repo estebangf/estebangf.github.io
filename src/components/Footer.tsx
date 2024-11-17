@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <p className="mt-6 text-sm text-gray-500">© {new Date().getFullYear()} Esteban Fernández. Todos los derechos reservados.</p>
+        <p className="mt-6 text-sm text-gray-500">© 11-2024 Esteban Fernández. Todos los derechos reservados.</p>
       </div>
     </footer>
   )

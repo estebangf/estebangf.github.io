@@ -10,16 +10,28 @@ interface ExperienceItemProps {
 const experienceData: ExperienceItemProps[] = [
   {
     title: "Técnico en Programación",
-    company: "Instituto X",
+    company: "Centro Provincial de Enseñanza Media N°28",
     duration: "2020 - Presente",
-    description: "Gestiono redes, sistemas informáticos y brindó apoyo en tecnologías en la institución.",
+    description: "Gestiono redes, sistemas informáticos, Google Workspace for Education, Wordpress, redes sociales y brindó apoyo en tecnologías al personal de la institución.",
   },
   {
     title: "Desarrollador Freelance",
     company: "Proyectos personales",
     duration: "2019 - Presente",
-    description: "Construyo aplicaciones con React, TypeScript y Tailwind CSS, mejorando habilidades en desarrollo frontend."
-  }
+    description: "Construyo aplicaciones web segun se me solicita, y en alguna ocación también hice trabajos IOT con arduino o similares."
+  },
+  {
+    title: "Auditor de procesos",
+    company: "Instituto X",
+    duration: "2018 - 2019",
+    description: "Gestiono servidores, revision de procesos y control de inventarios.",
+  },
+  {
+    title: "Profesor de enseñanza media",
+    company: "Escuelas varias",
+    duration: "2015 - 2018",
+    description: "Docente en materias varias entre ellas informática y electricidad.",
+  },
 ]
 
 const ExperienceItem: React.FC<ExperienceItemProps> = ({ title, company, duration, description }) => (

@@ -6,7 +6,7 @@ const Hero = () => {
       <h1 className="text-4xl font-bold">¡Hola, soy Esteban Fernández!</h1>
       <p className="mt-4 text-xl">Desarrollador Frontend | React | TypeScript</p>
       <a
-        href="/CV_TuNombre.pdf"
+        href="/Esteban Fernández - CV.pdf"
         download
         className="mt-6 px-8 py-3 bg-white text-blue-600 rounded-lg font-semibold shadow-md hover:bg-gray-100 transition duration-300"
       >
