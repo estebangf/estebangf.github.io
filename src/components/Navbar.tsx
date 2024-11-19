@@ -1,4 +1,5 @@
 'use client'
+
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -31,12 +32,13 @@ const Navbar = () => {
         ${isVisible && 'scale-90 bg-white/85 shadow-md mt-3 rounded-full'}
       `}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 relative">
-        {/* Logo */}
         <div className={`
           text-xl font-bold
           ${isVisible ? 'text-blue-600 hover:text-blue-800' : 'text-white'}
         `}>
-          <Link href="#hero">Esteban Fernández</Link>
+          <Link href="#hero">
+            <img src='/logo.png' alt="Esteban Fernández" className="h-10" />
+          </Link>
         </div>
 
         {/* Menú Hamburguesa */}

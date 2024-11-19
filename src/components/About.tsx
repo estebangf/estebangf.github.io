@@ -12,7 +12,13 @@ const About = () => {
         </AnimatedIn>
         <AnimatedIn className="delay-300">
           <p className="mt-4 text-gray-600">
-            Soy un desarrollador apasionado con experiencia en frontend, enfocado en construir aplicaciones modernas con React y TypeScript. Disfruto trabajar en proyectos colaborativos y me esfuerzo en aprender continuamente para mejorar mis habilidades y estar al día con las últimas tecnologías.
+            Soy un desarrollador apasionado con experiencia en frontend, especializado en construir aplicaciones modernas con React y TypeScript. También tengo conocimientos sólidos en Next.js, Tailwind CSS, y Material UI, lo que me permite diseñar interfaces atractivas y funcionales.
+          </p>
+          <p className="mt-4 text-gray-600">
+            Además, me gusta experimentar con tecnologías como Firebase, MongoDB, y Node.js para crear soluciones completas, así como explorar frameworks como Angular e Ionic.
+          </p>
+          <p className="mt-4 text-gray-600">
+            Mi interés por la tecnología también abarca el desarrollo con Electron y proyectos más técnicos con Arduino. Disfruto trabajar en equipo, enfrentar nuevos desafíos y mantenerme actualizado con las últimas tendencias para seguir mejorando mis habilidades.
           </p>
         </AnimatedIn>
       </div>

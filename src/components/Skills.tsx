@@ -9,13 +9,15 @@ const skillsData: SkillProps[] = [
   { name: "React", level: "Avanzado" },
   { name: "TypeScript", level: "Intermedio-Avanzado" },
   { name: "NextJS", level: "Intermedio-Avanzado" },
-  { name: "Angular", level: "Intermedio" },
+  { name: "Angular", level: "Principiante" },
+  { name: "Ionic", level: "Principiante" },
   { name: "Tailwind CSS", level: "Intermedio-Avanzado" },
   { name: "Material UI", level: "Intermedio-Avanzado" },
   { name: "Firebase", level: "Intermedio" },
   { name: "MongoDB", level: "Intermedio" },
   { name: "Node.JS", level: "Intermedio" },
   { name: "Electron", level: "Intermedio" },
+  { name: "Arduino", level: "Intermedio" },
   // Agrega más habilidades según sea necesario
 ]
 

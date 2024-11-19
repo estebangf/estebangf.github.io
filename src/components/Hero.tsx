@@ -1,10 +1,20 @@
 // import WaveDivider from "./WaveDivider"
 
+import Typewriter from "./Typewriter"
+
 const Hero = () => {
   return (
     <section id="hero" className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-blue-400 to-indigo-700 text-white">
-      <h1 className="text-4xl font-bold">¡Hola, soy Esteban Fernández!</h1>
-      <p className="mt-4 text-xl">Desarrollador Frontend | React | TypeScript</p>
+      <Typewriter
+        className="text-4xl font-bold"
+        text="¡Hola, soy Esteban Fernández!"
+      />
+      <Typewriter
+        className="mt-4 text-xl"
+        text="Desarrollador Frontend en constante evolución. Trabajo principalmente con React y TypeScript para construir aplicaciones de última generación."
+        delay={"¡Hola, soy Esteban Fernández!".length * 100}
+        speed={50}
+      />
       <a
         href="https://clip-to.vercel.app/4HTRS4U"
         download
