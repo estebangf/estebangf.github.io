@@ -1,24 +1,30 @@
 import AnimatedIn from "./AnimatedIn"
 
+type LEVELS = "Principiante" | "Intermedio" | "Intermedio-Avanzado" | "Avanzado" | "Experto"
 interface SkillProps {
   name: string
-  level: string
+  level: LEVELS
 }
 
 const skillsData: SkillProps[] = [
   { name: "React", level: "Avanzado" },
   { name: "TypeScript", level: "Intermedio-Avanzado" },
   { name: "NextJS", level: "Intermedio-Avanzado" },
-  { name: "Angular", level: "Principiante" },
-  { name: "Ionic", level: "Principiante" },
   { name: "Tailwind CSS", level: "Intermedio-Avanzado" },
   { name: "Material UI", level: "Intermedio-Avanzado" },
+  { name: "Git", level: "Intermedio-Avanzado" },
   { name: "Firebase", level: "Intermedio" },
   { name: "MongoDB", level: "Intermedio" },
+]
+
+
+
+const skillsOthersData: SkillProps[] = [
+  { name: "Angular", level: "Principiante" },
+  { name: "Ionic", level: "Principiante" },
   { name: "Node.JS", level: "Intermedio" },
-  { name: "Electron", level: "Intermedio" },
-  { name: "Arduino", level: "Intermedio" },
-  // Agrega más habilidades según sea necesario
+  { name: "Electron", level: "Principiante" },
+  { name: "Arduino", level: "Principiante" },
 ]
 
 const SkillItem: React.FC<SkillProps> = ({ name, level }) => (
@@ -38,6 +44,17 @@ const Skills = () => {
         <h2 className="text-3xl font-semibold text-gray-800">Habilidades</h2>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
           {skillsData.map((skill, index) => (
+            <AnimatedIn key={index} style={{ animationDelay: `${index * 300}ms` }}>
+              <SkillItem {...skill} />
+            </AnimatedIn>
+          ))}
+        </div>
+      </div>
+
+      <div className="max-w-5xl mx-auto px-6 text-center">
+        <h2 className="text-3xl font-semibold text-gray-800">Habilidades incursionadas</h2>
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+          {skillsOthersData.map((skill, index) => (
             <AnimatedIn key={index} style={{ animationDelay: `${index * 300}ms` }}>
               <SkillItem {...skill} />
             </AnimatedIn>
