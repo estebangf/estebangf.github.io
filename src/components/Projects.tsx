@@ -49,7 +49,7 @@ const projectsData: ProjectProps[] = [
 
 const ProjectItem: React.FC<ProjectProps> = ({ name, title, description, link, github }) => (
   <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-6 h-full">
-    <img src={`/projects/${name}.png`} className="mx-auto my-4 h-56" />
+    <img src={`/projects/${name}.png`} className="mx-auto my-4 max-h-56" />
     <h3 className="text-xl font-semibold text-gray-800">{title}</h3>
     <p className="mt-2 text-gray-600">{description}</p>
     <div className="mx-auto mt-4 space-x-4 flex justify-center items-center">
@@ -80,7 +80,7 @@ const ProjectItem: React.FC<ProjectProps> = ({ name, title, description, link, g
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-gray-50 relative">
+    <section id="projects" className="bg-gray-50 mb-20 relative">
       {/* <div
         className="absolute inset-0 bg-center opacity-10 bg-[url('/code-background.webp')] bg-contain bg-repeat"
       >
