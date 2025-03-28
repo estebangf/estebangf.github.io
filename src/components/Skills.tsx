@@ -51,7 +51,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-6 text-center">
+      <div className="max-w-5xl mx-auto px-6 text-center mt-20">
         <h2 className="text-3xl font-semibold text-gray-800">Habilidades incursionadas</h2>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
           {skillsOthersData.map((skill, index) => (
