@@ -9,6 +9,7 @@ import Skills from '@/components/Skills'
 // import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import ScrollToTopButton from '@/components/ScrollToTopButton;'
+import Contact from '@/components/Contact'
 
 const Home: NextPage = () => {
   return (
@@ -23,7 +24,7 @@ const Home: NextPage = () => {
         <Experience />
         <Projects />
         <Skills />
-        {/* <Contact /> */}
+        <Contact />
         <Footer />
       </main>
       <ScrollToTopButton />
