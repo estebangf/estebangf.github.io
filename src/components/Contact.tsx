@@ -50,22 +50,22 @@ const Contact = () => {
             Enviar mensaje
           </button>
         </form> */}
-        <div className="flex xs:flex-row flex-col items-center gap-4 px-4 py-6 bg-white rounded-lg shadow-md mt-10">
-          <a href="https://www.linkedin.com/in/fernandez-esteban" target="_blank" className="flex items-center flex-wrap gap-2 px-4 py-2 text-gray-700 rounded-lg hover:bg-blue-50 transition">
+        <div className="flex flex-col flex-wrap md:flex-row items-center gap-y-8 py-6 bg-white rounded-lg shadow-md mt-10">
+          <a href="https://www.linkedin.com/in/fernandez-esteban" target="_blank" className="flex flex-col md:w-1/2 items-center gap-2 px-4 py-2 text-gray-700 rounded-lg hover:bg-blue-50 transition">
             <img src="/LinkedIn.webp" alt="LinkedIn" className="h-8 w-8 mx-auto" />
-            LinkedIn: https://www.linkedin.com/in/fernandez-esteban
+            <span className="w-full">fernandez-esteban</span>
           </a>
-          <a href="mailto:esteban.fernandez93@outlook.com.ar" target="_blank" className="flex items-center flex-wrap gap-2 px-4 py-2 text-gray-700 rounded-lg hover:bg-blue-50 transition">
-            <img src="/mail.png" alt="LinkedIn" className="h-8 w-8 mx-auto" />
-            Enviar correo: esteban.fernandez93@outlook.com.ar
+          <a href="mailto:esteban.fernandez93@outlook.com.ar" target="_blank" className="flex flex-col md:w-1/2 items-center gap-2 px-4 py-2 text-gray-700 rounded-lg hover:bg-blue-50 transition">
+            <img src="/mail.png" alt="Mail" className="h-8 w-8 mx-auto" />
+            <span className="w-full">esteban.fernandez93@outlook.com.ar</span>
           </a>
-          <a href="tel:+5492944617548" target="_blank" className="flex items-center flex-wrap gap-2 px-4 py-2 text-gray-700 rounded-lg hover:bg-blue-50 transition">
-            <img src="/phone.png" alt="LinkedIn" className="h-8 w-8 mx-auto" />
-            Marcar Telefono: +54 9 2944617548
+          <a href="tel:+5492944617548" target="_blank" className="flex flex-col md:w-1/2 items-center gap-2 px-4 py-2 text-gray-700 rounded-lg hover:bg-blue-50 transition">
+            <img src="/phone.png" alt="Teléfono" className="h-8 w-8 mx-auto" />
+            <span className="w-full">+54 9 2944617548</span>
           </a>
-          <a href="https://wa.me/5492944617548" target="_blank" className="flex items-center flex-wrap gap-2 px-4 py-2 text-gray-700 rounded-lg hover:bg-blue-50 transition">
-            <img src="/whatsapp.png" alt="LinkedIn" className="h-8 w-8 mx-auto" />
-            Enviar WhatsApp: +54 9 2944617548
+          <a href="https://wa.me/5492944617548" target="_blank" className="flex flex-col md:w-1/2 items-center gap-2 px-4 py-2 text-gray-700 rounded-lg hover:bg-blue-50 transition">
+            <img src="/whatsapp.png" alt="WhatsApp" className="h-8 w-8 mx-auto" />
+            <span className="w-full">+54 9 2944617548</span>
           </a>
         </div>
       </div>
