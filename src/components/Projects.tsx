@@ -80,7 +80,7 @@ const ProjectItem: React.FC<ProjectProps> = ({ name, title, description, link, g
 
 const Projects = () => {
   return (
-    <section id="projects" className="bg-gray-50 mb-20 relative">
+    <section id="projects" className="bg-gray-50 mb-20 relative pt-16">
       {/* <div
         className="absolute inset-0 bg-center opacity-10 bg-[url('/code-background.webp')] bg-contain bg-repeat"
       >
